@@ -16,12 +16,12 @@ This repository contains code for training and inferring a Hindi Optical Charact
 
 ## Installation
 
-Clone the ms-swift repository and navigate to its directory:
+#1. Clone the ms-swift repository and navigate to its directory:
 ```bash
 !git clone https://github.com/modelscope/ms-swift.git
 %cd ms-swift
-\Install the dependencies required for LLM training: !pip install -e .[llm]
-Install additional libraries like verovio for music score processing (if needed):!pip install verovio
+#2\Install the dependencies required for LLM training: !pip install -e .[llm]
+#3\Install additional libraries like verovio for music score processing (if needed):!pip install verovio
 Dataset Structure
 
 The dataset used for this project includes images and corresponding transcriptions stored in a CSV file.
