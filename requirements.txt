@@ -1,0 +1,26 @@
+Main libraries:
+
+PyTorch (GPU recommended)
+
+Hugging Face Transformers
+
+Datasets
+
+
+
+torch
+torchvision
+torchaudio
+transformers
+datasets
+sentencepiece
+opencv-python
+pillow
+tqdm
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+modelscope
+swift
