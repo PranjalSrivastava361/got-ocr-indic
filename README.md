@@ -22,7 +22,7 @@ This repository contains code for training and inferring a Hindi Optical Charact
 %cd ms-swift
 #2\Install the dependencies required for LLM training: !pip install -e .[llm]
 #3\Install additional libraries like verovio for music score processing (if needed):!pip install verovio
-Dataset Structure
+##Dataset Structure
 
 The dataset used for this project includes images and corresponding transcriptions stored in a CSV file.
 
@@ -37,7 +37,7 @@ Example of a row in the CSV:
 image_file	text
 image_01.png	यह एक उदाहरण है
 
-Training:
+##Training:
 . Convert CSV to GOT-OCR2.0 JSON format:
 import os
 import json
@@ -78,7 +78,7 @@ with open('/kaggle/working/output_data.json', 'w', encoding='utf-8') as f:
 --save_strategy steps \
 --save_steps 500
 
-Inference
+##Inference
 1. Create test JSON file:
 import os
 import json
@@ -107,12 +107,12 @@ Run inference:
 --dataset /kaggle/working/test1.json \
 --load_dataset_config true
 
-Checkpoint Management
+##Checkpoint Management
 
 After training, compress the checkpoint for easy download:
 !zip -r /kaggle/working/checkpoint-1000.zip /kaggle/working/hindi_got_model_3/got-ocr2/v0-20240930-060444/checkpoint-4000
 
-Sample Data Format
+##Sample Data Format
 
 Example .json structure:
 [
