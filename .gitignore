@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data / datasets
+data/
+datasets/
+*.json
+*.jsonl
+*.csv
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+*.pt
+*.bin
+*.h5
+*.tar
+*.tar.gz
+*.zip
+
+# Images
+samples/*.png
+samples/*.jpg
+samples/*.jpeg
+
+# Colab / Kaggle temp files
+*.pyidb
+*.ipynb
+kaggle/working/
+kaggle/temp/
+
+# OS files
+.DS_Store
+Thumbs.db
